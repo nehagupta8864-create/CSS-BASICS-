@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practise page</title>
+    <style>
+        p{
+            color: rgb(73, 205, 133);
+            font-family: 'Segoe UI';
+            font-style: italic;
+            font-variant: small-caps;
+            font-weight: bold;
+            font-size: 18px;
+            font-kerning: initial;
+            font-stretch: ultra-condensed;
+            font-variant-ligatures: no-common-ligatures;
+        }
+        span{
+            color: rgb(27, 216, 216);
+            font-family: 'Segoe UI';
+            font-style: italic;
+            font-variant: small-caps;
+            font-weight: bold;
+            font-size: 18px;
+            font-kerning: initial;
+            font-stretch: ultra-condensed;
+            font-variant-ligatures: no-common-ligatures;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Cheatsheet</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus corporis voluptatum, impedit dicta consectetur cupiditate animi, accusamus fugiat facere nulla corrupti minima modi eum eaque assumenda quod blanditiis nostrum molestiae perspiciatis nobis? Consequuntur, ad fuga.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, beatae expedita ipsa non praesentium quia amet illum dolore assumenda, earum minima similique! Assumenda excepturi veniam qui quod maxime. A magnam odio placeat sapiente vero facere possimus voluptates amet non minima in sint, enim ipsam minus?</p>
+    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, suscipit explicabo! Vitae, similique, voluptatum quidem magnam dignissimos placeat blanditiis sunt voluptates eius saepe, sapiente voluptas perspiciatis officiis exercitationem molestias autem rerum dolorum enim. Labore atque ut mollitia, et non aliquid ipsam? Velit, in quod? Libero illum excepturi tempore dolor iure?</span>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat cum quasi commodi sequi quaerat, minus tenetur dolor quod quam? Perferendis, id. Est distinctio quis nulla beatae fugit aliquam qui, dolores quaerat corporis iusto corrupti numquam pariatur culpa soluta, cum, quia delectus veritatis. Numquam distinctio qui nemo dicta, molestiae necessitatibus veniam aliquam! Earum officiis maiores voluptatum necessitatibus fuga, dolore cumque ipsam?</p>
+    </div>
+</body>
+</html>
