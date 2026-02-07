@@ -1,0 +1,114 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BASICS</title>
+    <style>
+        div {
+            color: rgb(46, 159, 197);
+            font: bold;
+            font-size: 18px;
+            font-style: oblique;
+        }
+        div p{
+            color: lightcoral;
+            font: bold;
+            font-style: inherit;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color: rgb(63, 224, 224); font-size: 20px; font-style: inherit;">Inline CSS</h1>
+    <p style="color: rgb(95, 95, 225); font-size: 18px; font-style: unset;">This is how we use Inline Css.</p>
+    <div>
+        <h1>Internal CSS</h1>
+        <p>this is how we use internal css</p>
+    </div>
+</body>
+
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BASICS</title>
+    <style>
+        .h1,.p1{
+            color: navy;
+            font: bolder;
+            font-style: initial;
+            font-size: 20px;
+        }
+        h1, p{
+            color: rgb(173, 208, 208);
+            font: bolder;
+            font-style: var(adipisicing);
+            background-color: rgb(215, 145, 220);           
+        }
+    </style>
+</head>
+<body>
+    <h1>Element Selector</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum deserunt expedita ipsam dolor aspernatur, dicta impedit, quia enim delectus nesciunt quam minima autem sed inventore!</p>
+    <h1 class="h1">CLASS SELECTOR</h1>
+    <p class="p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat autem aperiam similique odio laborum, commodi officiis dolores, sapiente facere inventore quod cupiditate, delectus possimus saepe provident voluptate expedita temporibus facilis quam minus cumque sed earum! Fuga!</p>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External CSS</title>
+    
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <h1>EXTERNAL CSS</h1>
+    <p>This is how we use External Css</p>
+    <span>External Css example</span>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BASICS</title>
+    <style>
+        .big{
+            color: rgb(234, 111, 111);
+            font-size: 20px;
+            font-style: calc();
+            font: bold;
+            font: 500;
+            border: 5px solid rgb(172, 172, 234);
+            border-radius: 5px;
+        }
+        .small{
+            color: rgb(216, 142, 51);
+            font-size: 20px;
+            font-style: oblique;
+            font: bolder;
+            border: 5px solid rgb(43, 38, 38);
+            border-radius: 5px;
+        }
+        *{
+            background-image: url(https://picjumbo.com/wp-content/uploads/beautiful-nature-scenery-free-photo-2210x1473.jpg);
+        }
+    </style>
+</head>
+<body>
+    <h1 class="big red">CLASS EXAMPLE OF CSS</h1>
+    <p class="green small">This is how we use Class Example</p>
+    <p class="blue big">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente illo libero iusto? Quisquam quo veritatis praesentium ipsa, pariatur ab amet rem voluptate nisi non hic deleniti accusantium eveniet saepe maxime sequi voluptates aliquid quaerat, vero animi ipsam neque facere nulla reiciendis. Placeat harum quis veritatis?</p>
+</body>
+</html>
